@@ -1,0 +1,1 @@
+<?php echo "los datos de la configuración inicial pueden ser modificados dentro de la plataforma."; ?>

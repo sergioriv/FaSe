@@ -1,0 +1,63 @@
+/* CSS Document */
+
+.pag {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+	margin-top:10px;
+    font-size: 12px;
+}
+
+.pag ul {
+    position: relative;
+    left: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left
+}
+
+.pag li {
+    position: relative;
+    float: left;
+    right: 50%
+}
+
+.pag .pagination {
+    display: inline-block;
+}
+
+.pag li {
+    display: inline;
+    border-radius: 2px;
+    border: 1px solid var(--colorPrimary);
+    margin: 0px 3px;
+}
+
+.pag a,
+.pag span {
+    padding: 4px 9px;
+    color: var(--colorPrimary);
+    border-radius: 0px;
+    text-decoration: none;
+    background-color: transparent;
+    display: block;
+    float: left;
+    position: relative;
+    margin-left: -1px;
+}
+.pag i{padding: 0px 1px;}
+
+.pag li.active a {
+    color: var(--colorWhite);
+    cursor: default;
+    background-color: var(--colorPrimary);
+    border: 0;
+}
+.pag li a:hover,
+.pag li span:hover {
+    color: var(--colorWhite);
+    background-color: var(--colorPrimary);
+}
+
+.pag .disabled {display:none;}

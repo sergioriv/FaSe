@@ -1,0 +1,20 @@
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+Options +FollowSymLinks -MultiViews
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond %{HTTP_COOKIE} /^(.*;)?concultoriosClinica=([0-9]+)(.*)$ [NC]
+RewriteRule ^image/([0-9a-zA-Z.]+)$ img-clientes/160/$1 [R=307,NC,L] 
+
+
+
+
+
+ErrorDocument 404 https://mi.fase.app/demo/error.php

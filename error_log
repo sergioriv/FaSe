@@ -1,0 +1,90 @@
+[24-Dec-2021 11:06:12 America/Bogota] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The asked [path] tag is not in a [DRAW] tag in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php:68
+Stack trace:
+#0 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php(45): Spipu\Html2Pdf\Tag\AbstractSvgTag->openSvg(Array)
+#1 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractSvgTag->open(Array)
+#2 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#3 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(5589): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#4 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_TD(Array)
+#5 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php( in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php on line 68
+[24-Dec-2021 11:17:57 America/Bogota] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The asked [path] tag is not in a [DRAW] tag in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php:68
+Stack trace:
+#0 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php(45): Spipu\Html2Pdf\Tag\AbstractSvgTag->openSvg(Array)
+#1 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractSvgTag->open(Array)
+#2 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#3 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(5589): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#4 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_TD(Array)
+#5 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php( in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php on line 68
+[24-Dec-2021 11:20:23 America/Bogota] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The asked [path] tag is not in a [DRAW] tag in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php:68
+Stack trace:
+#0 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php(45): Spipu\Html2Pdf\Tag\AbstractSvgTag->openSvg(Array)
+#1 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractSvgTag->open(Array)
+#2 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#3 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(5589): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#4 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_TD(Array)
+#5 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php( in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php on line 68
+[24-Dec-2021 11:21:30 America/Bogota] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The asked [path] tag is not in a [DRAW] tag in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php:68
+Stack trace:
+#0 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php(45): Spipu\Html2Pdf\Tag\AbstractSvgTag->openSvg(Array)
+#1 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractSvgTag->open(Array)
+#2 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1049): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#3 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(755): Spipu\Html2Pdf\Html2Pdf->_setNewPositionForNewLine(NULL)
+#4 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(6227): Spipu\Html2Pdf\Html2Pdf->_setNewPage()
+#5 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php on line 68
+[24-Dec-2021 11:22:10 America/Bogota] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The asked [line] tag is not in a [DRAW] tag in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php:68
+Stack trace:
+#0 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php(45): Spipu\Html2Pdf\Tag\AbstractSvgTag->openSvg(Array)
+#1 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractSvgTag->open(Array)
+#2 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1049): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#3 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(755): Spipu\Html2Pdf\Html2Pdf->_setNewPositionForNewLine(NULL)
+#4 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(6227): Spipu\Html2Pdf\Html2Pdf->_setNewPage()
+#5 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php on line 68
+[29-Dec-2021 20:06:52 America/Bogota] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The asked [line] tag is not in a [DRAW] tag in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php:68
+Stack trace:
+#0 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php(45): Spipu\Html2Pdf\Tag\AbstractSvgTag->openSvg(Array)
+#1 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractSvgTag->open(Array)
+#2 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1049): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#3 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(755): Spipu\Html2Pdf\Html2Pdf->_setNewPositionForNewLine(NULL)
+#4 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(6227): Spipu\Html2Pdf\Html2Pdf->_setNewPage()
+#5 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php on line 68
+[29-Dec-2021 20:36:03 America/Bogota] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The asked [line] tag is not in a [DRAW] tag in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php:68
+Stack trace:
+#0 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php(45): Spipu\Html2Pdf\Tag\AbstractSvgTag->openSvg(Array)
+#1 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractSvgTag->open(Array)
+#2 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1049): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#3 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(755): Spipu\Html2Pdf\Html2Pdf->_setNewPositionForNewLine(NULL)
+#4 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(6227): Spipu\Html2Pdf\Html2Pdf->_setNewPage()
+#5 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php on line 68
+[29-Dec-2021 20:37:48 America/Bogota] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The asked [path] tag is not in a [DRAW] tag in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php:68
+Stack trace:
+#0 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php(45): Spipu\Html2Pdf\Tag\AbstractSvgTag->openSvg(Array)
+#1 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractSvgTag->open(Array)
+#2 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#3 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(5589): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#4 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_TD(Array)
+#5 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php( in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php on line 68
+[29-Dec-2021 21:07:39 America/Bogota] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The asked [path] tag is not in a [DRAW] tag in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php:68
+Stack trace:
+#0 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php(45): Spipu\Html2Pdf\Tag\AbstractSvgTag->openSvg(Array)
+#1 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractSvgTag->open(Array)
+#2 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#3 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(5589): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#4 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_TD(Array)
+#5 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php( in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php on line 68
+[30-Dec-2021 11:18:32 America/Bogota] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The asked [path] tag is not in a [DRAW] tag in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php:68
+Stack trace:
+#0 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php(45): Spipu\Html2Pdf\Tag\AbstractSvgTag->openSvg(Array)
+#1 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractSvgTag->open(Array)
+#2 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#3 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(5589): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#4 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_TD(Array)
+#5 /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Html2Pdf.php( in /home3/mantizte/softwaredental.online/demo/vendor/spipu/html2pdf/src/Tag/AbstractSvgTag.php on line 68
+[30-Dec-2021 16:06:26 America/Bogota] PHP Warning:  mysqli::query(): Empty query in /home3/mantizte/softwaredental.online/demo/citas.php on line 44
+[30-Dec-2021 16:06:26 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/mantizte/softwaredental.online/demo/citas.php:80
+Stack trace:
+#0 {main}
+  thrown in /home3/mantizte/softwaredental.online/demo/citas.php on line 80
+[30-Dec-2021 17:53:54 America/Bogota] PHP Warning:  mysqli::query(): Empty query in /home3/mantizte/softwaredental.online/demo/citas.php on line 44
+[30-Dec-2021 17:53:54 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/mantizte/softwaredental.online/demo/citas.php:80
+Stack trace:
+#0 {main}
+  thrown in /home3/mantizte/softwaredental.online/demo/citas.php on line 80

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="46.5381mm" height="77.5688mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4455.74 7426.75"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#E63D24;stroke-width:162.12;stroke-miterlimit:4}
+    .str2 {stroke:#1F1B20;stroke-width:32.43;stroke-miterlimit:4}
+    .str1 {stroke:#1F1B20;stroke-width:33.78;stroke-miterlimit:4}
+    .fil0 {fill:none}
+    .fil1 {fill:none;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2342792325376">
+   <line class="fil0 str0" x1="57.49" y1="4777.93" x2="4434.15" y2= "4777.93" />
+   <line class="fil0 str0" x1="57.49" y1="2641.45" x2="4434.15" y2= "2641.45" />
+  </g>
+  <path class="fil1 str1" d="M21.59 6410.09c1240.85,1333.02 3171.71,1333.02 4412.56,0"/>
+  <path class="fil0 str1" d="M4434.15 3544.85c-81.24,-1396.28 -1134.88,-2452.72 -2353.37,-2359.64 -1218.51,93.09 -2140.43,1300.44 -2059.2,2696.72 81.24,1396.25 1134.87,2452.71 2353.35,2359.62 1218.51,-93.07 2140.45,-1300.44 2059.21,-2696.7z"/>
+  <g id="_2342792326880">
+   <line class="fil0 str2" x1="4434.15" y1="1016.66" x2="2709.55" y2= "2992.85" />
+   <line class="fil0 str2" x1="21.59" y1="1016.66" x2="1746.18" y2= "2992.85" />
+   <line class="fil0 str2" x1="4434.15" y1="6410.09" x2="2709.55" y2= "4433.9" />
+   <line class="fil0 str2" x1="21.59" y1="6410.09" x2="1746.18" y2= "4433.9" />
+  </g>
+  <path class="fil0 str1" d="M2963.28 3376.29c-162.45,-465.43 -623.41,-691.82 -1029.57,-505.64 -406.17,186.17 -603.71,714.39 -441.26,1179.82 162.46,465.41 623.43,691.79 1029.58,505.62 406.17,-186.16 603.71,-714.4 441.25,-1179.81z"/>
+  <path class="fil0 str1" d="M4434.15 1016.66c-1240.85,-1333.02 -3171.71,-1333.02 -4412.56,0"/>
+ </g>
+</svg>

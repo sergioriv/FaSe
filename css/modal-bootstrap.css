@@ -1,0 +1,377 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+.close {
+    position: absolute;
+    font-size: 22px; 
+    padding: 7px;
+    border-radius: 50%;
+    right: -15px;
+    top: -15px;
+    width: 20px;
+    height: 20px;    
+    line-height: 0.8;
+    text-align: center;
+    color: var(--colorWhite);
+    background: var( --colorSecondary);
+}
+.close:hover,
+.close:focus {
+  color: var(--colorWhite);
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .9;
+}
+button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+.modal-open {
+  overflow: hidden;
+}
+#consultoriosModal{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1050;
+  display: block;
+  width: 100vw;
+  left: -100vw;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal.fade.in{
+  left: 0;
+}
+.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform .3s ease-out;
+       -o-transition:      -o-transform .3s ease-out;
+          transition:         transform .3s ease-out;
+  -webkit-transform: translate(0, -25%);
+      -ms-transform: translate(0, -25%);
+       -o-transform: translate(0, -25%);
+          transform: translate(0, -25%);
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+       -o-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.modal-dialog {
+  position: relative;
+  width: 80%;
+  margin: 30px auto;
+}
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 0px;
+  outline: 0;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+.modal-backdrop.fade {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+.modal-header {
+  padding: 8px 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/*
+.modal-header .close {
+  margin-top: -2px;
+}
+*/
+.modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+  padding-right: 20px;
+  overflow-wrap: break-word;
+  font-size: 16px;
+}
+.modal-body {
+  position: relative;
+  padding: 15px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.modal-footer {
+  padding: 10px 15px;
+/*  text-align: right; */
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+/*
+.modal-footer button {
+    margin: -10px 0px;
+}
+*/
+.modal-title .icon-etiqueta-title{ color: orangered; }
+.modal-footer .SliderSwitch{ margin-bottom: 0px; }
+.modal-footer > * { margin-right: 15px; }
+.modal-footer > *:last-child { margin-right: 0px; }
+.modal-footer .form > * { margin-right: 15px; }
+.modal-footer .form > *:last-child { margin-right: 0px; }
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+/* TABS */
+
+  /* -- extras -- */
+    input#tab-100 { display: none; }
+    .formEvolucion #content-100 {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      width: calc(80vw - 30px);
+      left: -1000vw;
+    }
+    .divForm input#tab-100:checked ~ .formEvolucion #content-100 { position: initial; left: 0; width: 100%; }
+  /* -- fin extras -- */
+
+
+.contenedorTabs input[id^="tab-"] { display: none; } /* 1,11,101,105 */
+
+  .contenedorTabs .labelTab {
+    cursor: pointer;
+    padding: 11.5px 10px;
+    line-height: 3;
+    position: relative;
+    font-size: 14px;
+    color: var(--colorTab);
+  }
+  .contenedorTabs .labelTab:hover { color: var(--colorPrimary); }
+  .contenidoTab {
+    position: relative;
+    padding: 20px 0px;
+    -webkit-box-shadow: inset 0px 6px 8px -10px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 6px 8px -10px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 6px 8px -10px rgba(0,0,0,0.5);
+    border-top: 1px solid var(--colorGray);
+  }
+  .contenidoTab .divForm { margin: 0px; }
+
+  .contenidoTab [id^="content-"]{  /* 1,11,101,105 */
+    position: fixed; /* absolute */
+    display: flex;
+    flex-direction: column;
+    left: -1000vw;
+    width: 90vw;
+    top: 0px;
+    max-height: 1px;
+  }
+
+.modal-body .contenidoTab [id^="content-"]{  /* 1,11,101,105 */
+  position: fixed; /* absolute */
+    display: flex;
+    flex-direction: column;
+    left: -1000vw;
+    width: -webkit-fill-available;
+    width: 100%;
+    top: 0px;
+    max-height: 1px;
+}
+
+  .contenedorTabs input#tab-1:checked ~ .contenidoTab #content-1,
+  .contenedorTabs input#tab-2:checked ~ .contenidoTab #content-2,
+  .contenedorTabs input#tab-3:checked ~ .contenidoTab #content-3,
+  .contenedorTabs input#tab-4:checked ~ .contenidoTab #content-4,
+  .contenedorTabs input#tab-5:checked ~ .contenidoTab #content-5,
+  .contenedorTabs input#tab-6:checked ~ .contenidoTab #content-6,
+  .contenedorTabs input#tab-7:checked ~ .contenidoTab #content-7,
+  .contenedorTabs input#tab-8:checked ~ .contenidoTab #content-8,
+  .contenedorTabs input#tab-9:checked ~ .contenidoTab #content-9,
+  .contenedorTabs input#tab-10:checked ~ .contenidoTab #content-10,
+  .contenedorTabs input#tab-11:checked ~ .contenidoTab #content-11,
+  .contenedorTabs input#tab-101:checked ~ .contenidoTab #content-100,
+  .contenedorTabs input#tab-101:checked ~ .contenidoTab #content-101,
+  .contenedorTabs input#tab-102:checked ~ .contenidoTab #content-102,
+  .contenedorTabs input#tab-103:checked ~ .contenidoTab #content-103,
+  .contenedorTabs input#tab-104:checked ~ .contenidoTab #content-104,
+  .contenedorTabs input#tab-105:checked ~ .contenidoTab #content-105 {
+    position: initial;
+    left: 0;
+    max-height: none;
+  }
+  .contenedorTabs > input:checked + label {
+    -webkit-box-shadow: inset 0px -3px 0px 0px var(--colorPrimary);
+    -moz-box-shadow: inset 0px -3px 0px 0px var(--colorPrimary);
+    box-shadow: inset 0px -3px 0px 0px var(--colorPrimary);
+    color: var(--colorPrimary);
+  }
+  .consultorioPassword {
+    color: var(--colorPrimary);
+    cursor: pointer;
+  }
+  .divForm#consultorioPassword {margin-top: -10px;}
+  .modal-header .contenedorAlerta {margin-top: 15px;}
+/*  .modal-content .tableList tbody td {height: 20px;} */
+  .modal-content .tableList.top {margin-top: 0px;}
+  .tituloCenter {
+    margin-bottom: 10px;
+    margin: 0 auto;
+  }
+  #estadoCuenta { margin-left: 10px; }
+  .modal-header-form{
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-justify { text-align: justify; overflow-wrap: break-word; }
+  .tableList .iconGray { color: var(--colorTab); }
+  .elementoEliminado { color: var(--colorGray); }
+  .elementoEliminado i.iconW {
+    color: var(--colorTab);
+    margin-right: 5px;
+  }
+  .elementoEliminado img { opacity: 0.2; }
+
+
+.convencionesContent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.convencionesContent .titulo{
+  margin-bottom: 10px;
+}
+.convenciones label{
+  font-size: 12px;
+}
+.tableOdonto{
+  border-collapse: collapse;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background: url('../img/condiente.svg') no-repeat;
+    background-size: 100% 82%;
+    background-position-y: bottom;
+}
+
+.tableOdontoEsp-exodoncia{
+  background: url('../img/exodoncia.svg') no-repeat;
+  background-size: 100% 82%;
+  background-position-y: bottom;
+  pointer-events: none;
+}
+.tableOdontoEsp-endodoncia{
+  background: url('../img/endodoncia.svg') no-repeat;
+  background-size: 100% 82%;
+  background-position-y: bottom;
+  pointer-events: none;
+}
+.tableOdontoEsp-incluido{
+  background: url('../img/incluido.svg') no-repeat;
+  background-size: 100% 82%;
+  background-position-y: bottom;
+  pointer-events: none;
+}
+.tableOdontoEsp-caries{
+  background: url('../img/caries.svg') no-repeat;
+  background-size: 100% 82%;
+  background-position-y: bottom;
+  pointer-events: none;
+}
+.tableOdonto td{
+  width: 15px;
+  height: 15px;
+}
+.tableOdonto .odontogramaPart{
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.tituloDiente{
+  text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.selectMedicamento {
+  display: flex;
+  flex-direction: column;
+}
+.selectMedicamento i {
+  margin-left: 15px;
+  font-size: 10px;
+  color: slategray;
+  font-style: normal;
+}
+.tableSinheight tbody td { height: auto; }
+
+
+.modal-body span.select2-container{
+  width: 100% !important;
+}
+
+
+
+/* OPCIONES DURACION CITA */
+.content_option_predef{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.option_predef {
+  width: 90px;
+  background: var(--colorSecondary);
+  color: var(--colorWhite);
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 15px 15px;
+  cursor: pointer;
+}

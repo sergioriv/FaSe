@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    background: rgb(254, 254, 254);
+}
+.contenedorPrincipal {
+    margin-top: 0px !important;
+}
+.contenedorHeader {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.contenedorHeader .txt { font-size: 30px; text-align: center; }
+.contenedorHeader > * {
+  width: 33.333%
+}
+.contenedorFooter {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
+/*
+.contenedor-pasarela {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 70px;
+	background:white;
+	padding: 1%;
+}
+.contenedorTabs input#tab-1,
+.contenedorTabs input#tab-2,
+.contenedorTabs input#tab-3,
+.contenedorTabs input#tab-4,
+.contenedorTabs input#tab-5,
+.contenedorTabs input#tab-6,
+.contenedorTabs input#tab-7,
+.contenedorTabs input#tab-8 {
+    display: none;
+  }
+  .contenedorTabs .labelTab {
+    cursor: pointer;
+      padding: 7px 20px;
+      line-height: 32px;
+    border: 1px solid var(--colorSecondary);
+    border-radius: 4px 4px 0px 0px;
+    background: var(--colorSecondary);
+    color: white;
+    position: relative;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .contenedorTabs > input:checked + label {
+        background: white;  /* Fondo de las pestañas al presionar */
+/*        color: var(--colorSecondary); /* Color de las pestañas al presionar */
+/*    }
+    .contenidoTab {
+      padding: 20px 0px;      
+    border-top: 1px solid var(--colorSecondary);
+    font-size: 12px;
+    }
+    .contenidoTab .divForm { margin: 0px; }
+  .contenidoTab #content-1 { display: none; }
+  .contenidoTab #content-2 { display: none; }
+  .contenidoTab #content-3 { display: none; }
+  .contenidoTab #content-4 { display: none; }
+  .contenidoTab #content-5 { display: none; }
+  .contenidoTab #content-6 { display: none; }
+  .contenidoTab #content-7 { display: none; }
+  .contenidoTab #content-8 { display: none; }
+  .contenedorTabs input#tab-1:checked ~ .contenidoTab #content-1 { display: initial; }
+  .contenedorTabs input#tab-2:checked ~ .contenidoTab #content-2 { display: initial; }
+  .contenedorTabs input#tab-3:checked ~ .contenidoTab #content-3 { display: initial; }
+  .contenedorTabs input#tab-4:checked ~ .contenidoTab #content-4 { display: initial; }
+  .contenedorTabs input#tab-5:checked ~ .contenidoTab #content-5 { display: initial; }
+  .contenedorTabs input#tab-6:checked ~ .contenidoTab #content-6 { display: initial; }
+  .contenedorTabs input#tab-7:checked ~ .contenidoTab #content-7 { display: initial; }
+  .contenedorTabs input#tab-8:checked ~ .contenidoTab #content-8 { display: initial; }
+  .contenedorTabs > input:checked + label { border-bottom: 2px solid white; }
+*/
+.contenedorPrincipal {
+  background: rgb(254, 254, 254);
+  padding: 1%;
+}
+.contenedorProceso {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  align-items: center;
+}
+.contenedorProceso .carga {
+  width: 100%;
+  margin: 0% 1%;
+  background: var(--colorGray);
+  height: 20px;
+  border-radius: 10px;
+}
+.carga .proceso {
+  height: 100%;
+  background: var(--colorPrimary);
+  border-radius: 10px;
+}
+.boton{
+  border: 0;
+  border-radius: 2px;
+  padding: 6px 15px;
+  color: var(--colorWhite);
+  cursor: pointer;
+  font-weight: normal;
+  position: relative;
+}
+.boton-gray { background: gray;pointer-events: none;cursor: default; }
+.pasarelaLogo input#filePhoto {display: none;}
+.pasarelaLogo .cargaImg {
+    height: 200px;
+    width: 99.5%;
+    border: 3px dashed var(--colorGray);
+    background: rgb(254, 254, 254);
+    color: var(--colorTable);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 6px;
+    position: relative;
+}
+.pasarelaLogo .cargaImg span {z-index: 2;}
+.pasarelaLogo .cargaImg:after {
+  content: "\f03e"; 
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  position: absolute;
+  font-size: 200px;
+  color: var(--colorGray);
+  text-align: center;
+  top: 2;
+  left: 2;
+  z-index: 1;
+}
+.pasarelaLogo .cargaImg img {
+  max-height: 180px;
+  max-width: 100%;
+  z-index: 2;
+  background: var(--colorWhite);
+}
